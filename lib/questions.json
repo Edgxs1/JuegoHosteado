@@ -1,8 +1,16 @@
 {"questions":[
-	{"question": "Which is the capital of india?", "choices": ["New delhi", "Mumbai", "Banglore", "Mysore"], "correctAnswer":0},
-	{"question": "Total number of states in India", "choices": ["27", "28", "29", "30"], "correctAnswer":2},
-	{"question": "Current President of India?", "choices": ["Pranab Mukherjee", "Pratibha Patil", "Narendra modi", "Manmohan singh"], "correctAnswer":0},
-	{"question": "Current Prime Minister of India?", "choices": ["Pratibha Patil", "Pranab Mukherjee", "Manmohan singh", "Narendra modi"], "correctAnswer":3}
-]}
+	{"question": "¿Cuál es el animal más perezoso del mundo?", "choices": ["koala", "Perezoso", "Gato", "Cangrejo ermitaño"], "correctAnswer":1},
+	{"question": "¿En qué país se inventó el ketchup?", "choices": ["Estados Unidos ", "China", "Italia", "Australia"], "correctAnswer":0},
+	{"question": "¿Cuántos huesos tiene un adulto humano promedio?", "choices": ["206", "300", "100", "500"], "correctAnswer":0},
+	{"question": "¿Cuál es la capital de la pizza?", "choices": ["Nueva York", "Roma", "Tokio", "París"], "correctAnswer":1},
+	{"question": "¿Quién escribió Romeo y Julieta?", "choices": ["William Shakespeare", "Jane Austen", "Charles Dickens", "Ernest Hemingway"], "correctAnswer":0},
+	{"question": "¿Cuál es el planeta más grande del sistema solar?", "choices": ["Venus", "Júpiter", "Marte", "Saturno"], "correctAnswer":1},
+	{"question": "¿En qué año se inventó el primer teléfono móvil?", "choices": ["1980", "1995", "2005", "1973"], "correctAnswer":3},
+	{"question": "¿Cuál es el océano más grande del mundo?", "choices": ["Atlántico", "Índico", "Pacífico", "Ártico"], "correctAnswer":2},
+	{"question": "¿Cuántas demandas tiene Sergio Ramírez?", "choices": ["5", "10", "2", "1"], "correctAnswer":0},
+	{"question": "¿Cuál es el sonido más fuerte que puede hacer un animal?", "choices": ["Rugido de un león", "Ladrido de un perro", "Canto de una ballena azul", "Maullido de un gato"], "correctAnswer":2},
+	{"question": "¿Qué estudió chuchin?", "choices": ["nada we", "Gestión empresarial", "Comunicaciones y electrónica", "nada, pero aún así lo quiero"], "correctAnswer":1},
+	{"question": "(para alma) Equipo favorito?", "choices": ["KODENT 😎🥶", "RoosterThech 🤡🥱", "Aakk 🤮👎", "Inno-Tech💀😹"], "correctAnswer":0}
 
+]}
 

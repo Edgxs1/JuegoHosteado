@@ -12,15 +12,14 @@ var scores = {};
 
 server.listen(4444);
 console.log("Listening to 4444")
-console.log("Connection Established !")
+console.log("Conexion establecida !")
 
 //Route
 app.get('/',function (req,res){
 	res.sendFile(__dirname + '/index.html');
 });
-
 io.sockets.on('connection', function(socket){
-	console.log("New Client Arrived!");
+	console.log("Se ha conectado un nuevo jugador!");
 
 	socket.on('addClient', function(username){
 		socket.username = username;
@@ -42,9 +41,9 @@ io.sockets.on('connection', function(socket){
         	pgmstart = 2;
     	}
 		
-		console.log(username + " joined to "+ id);
+		console.log(username + " śe unió a "+ id);
 
-		socket.emit('updatechat', 'SERVER', 'You are connected! <br> Waiting for other player to connect...',id);
+		socket.emit('updatechat', 'SERVER', 'Te has conectado! <br> Espera a que otro jugador entre...',id);
 		
 		socket.broadcast.to(id).emit('updatechat', 'SERVER', username + ' has joined to this game !',id);
 
@@ -55,7 +54,7 @@ io.sockets.on('connection', function(socket){
 				io.sockets.in(id).emit('sendQuestions',jsoncontent);
 				
 			});
-		console.log("Player2");
+		console.log(username + " śe unió a "+ id);
 			//io.sockets.in(id).emit('game', "haaaaai");
 		} else {
 			console.log("Player1");
