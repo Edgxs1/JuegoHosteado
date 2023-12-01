@@ -3,6 +3,7 @@ var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io').listen(server);
 var fs = require('fs');
+const port  = process.env.PORT || 4444;
 
 app.use('/', express.static(__dirname + '/public'));
 
@@ -10,7 +11,7 @@ var usernames = {};
 var pairCount = 0, id, clientsno, pgmstart=0,varCounter;
 var scores = {};
 
-server.listen(4444);
+server.listen(port);
 console.log("Listening to 4444")
 console.log("Conexion establecida !")
 
