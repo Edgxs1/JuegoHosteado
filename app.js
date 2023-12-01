@@ -12,9 +12,7 @@ var pairCount = 0, id, clientsno, pgmstart=0,varCounter;
 var scores = {};
 
 server.listen(port);
-console.log("Listening to 4444")
-console.log("Conexion establecida !")
-
+console.log(`Server up on ${port}`)
 //Route
 app.get('/',function (req,res){
 	res.sendFile(__dirname + '/index.html');
