@@ -12,8 +12,7 @@
     <script src="/socket.io/socket.io.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
     <script type="module">
-      import {DOMAIN} from "./config.js";
-      var socket = io.connect(`${DOMAIN}`);
+      var socket = io.connect(`https://jueguitobonito.onrender.com/`);
       var i,
         username,
         j = 0,
